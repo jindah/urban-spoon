@@ -19,4 +19,4 @@ class FollowerSerializer(serializers.ModelSerializer):
         except IntegrityError:
             raise serializers.ValidationError({
                 'detail': 'possible duplicate'
-            })    
+            })
