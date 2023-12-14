@@ -75,7 +75,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-jindah-urbanspoon-i6crk1h8d04.ws-eu106.gitpod.io',
-                'https://react-drf-api-thingy-6f5b1736a050.herokuapp.com/']
+                'react-drf-api-thingy-6f5b1736a050.herokuapp.com']
 
 
 # Application definition
